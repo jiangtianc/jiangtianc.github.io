@@ -168,7 +168,7 @@ nav ul li a:hover {
 
 /* 創建固定高度的圖片容器 */
 .service-card .img-container {
-    height: 200px; /* 調整為適合你圖片的高度 */
+    height: 300px; /* 調整為適合你圖片的高度 */
     overflow: hidden;
     display: flex;
     align-items: flex-start; /* 圖片向上對齊 */
@@ -213,10 +213,20 @@ nav ul li a:hover {
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* 確保所有卡片高度一致 */	
 }
 
 .project-card:hover {
     transform: translateY(-10px);
+}
+
+/* 創建固定高度的圖片容器，確保圖片向上對齊 */
+.project-card .img-container {
+    height: 320px; /* 根據實際圖片調整合適的高度 */
+    overflow: hidden;
+    position: relative;
 }
 
 .project-card img {
@@ -225,9 +235,16 @@ nav ul li a:hover {
     object-fit: contain;
 }
 
+/* 讓所有標題有統一高度與對齊方式 */
 .project-card h3 {
     padding: 20px 20px 10px;
     color: #ff6f22;
+    min-height: 70px; /* 根據你的標題長度調整，確保能容納兩行文字 */
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    text-align: center; /* 文字居中 */
+    margin: 0; /* 移除可能的預設邊距 */	
 }
 
 .project-card p {
