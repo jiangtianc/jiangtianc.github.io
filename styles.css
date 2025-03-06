@@ -332,6 +332,9 @@ footer {
     border-top: 1px solid rgba(255,255,255,0.1);
 }
 
+h1,h2 {
+    font-weight: normal;
+}
 /* 響應式設計 */
 @media (max-width: 768px) {
     .logo h1 {
