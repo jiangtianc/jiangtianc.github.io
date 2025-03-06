@@ -67,7 +67,7 @@ img {
 /* 頂部導航欄樣式 */
 header {
     background-color: #fff;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 10px rgba(0,0,0,1);
     position: fixed;
     width: 100%;
     top: 0;
@@ -107,12 +107,12 @@ nav ul li a:hover {
 /* 首頁橫幅部分 */
 .hero {
     height: 40vh;
-    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.2)), url('/images/bannerpng.png') no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url('/images/bannerpng.png') no-repeat center center/cover;
     display: flex;
     align-items: center;
     text-align: left;
     color: #fff;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .hero-content {
