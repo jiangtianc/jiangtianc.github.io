@@ -50,6 +50,20 @@ img {
     font-size: 2rem;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* 調整 Logo 大小 */
+    margin-right: 10px;
+}
+
+.full-width-img {
+    width: 100%;
+    height: auto;
+}
 /* 頂部導航欄樣式 */
 header {
     background-color: #fff;
