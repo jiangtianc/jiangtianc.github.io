@@ -158,10 +158,20 @@ nav ul li a:hover {
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s;
+	display: flex;
+    flex-direction: column;
 }
 
 .service-card:hover {
     transform: translateY(-10px);
+}
+
+/* 創建固定高度的圖片容器 */
+.service-card .img-container {
+    height: 200px; /* 調整為適合你圖片的高度 */
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start; /* 圖片向上對齊 */
 }
 
 .service-card img {
@@ -170,9 +180,15 @@ nav ul li a:hover {
     object-fit: contain;
 }
 
+/* 統一標題高度和對齊方式 */
 .service-card h3 {
     padding: 20px 20px 10px;
     color: #ff6f22;
+    min-height: 60px; /* 確保所有標題有一致的高度空間 */
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    text-align: center; /* 文字居中 */
 }
 
 .service-card p {
