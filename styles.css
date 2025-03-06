@@ -106,13 +106,13 @@ nav ul li a:hover {
 
 /* 首頁橫幅部分 */
 .hero {
-    height: 60vh;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url('/images/bannerpng.png') no-repeat center center/cover;
+    height: 40vh;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6)), url('/images/bannerpng.png') no-repeat center center/cover;
     display: flex;
     align-items: center;
-    text-align: left;
+    text-align: center;
     color: #fff;
-    padding-top: 30px;
+    padding-top: 100px;
 }
 
 .hero-content {
@@ -123,11 +123,20 @@ nav ul li a:hover {
 .hero-content h2 {
     font-size: 3rem;
     margin-bottom: 20px;
+	text-align: center; /* 標題居中 */
 }
 
-.hero-content p {
+.hero-content p:first-of-type {
     font-size: 1.2rem;
     margin-bottom: 30px;
+	text-align: center; /* 第一個段落（副標題）居中 */
+}
+
+.hero-content p:not(:first-of-type) {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    text-align: left; /* 其他段落（主要內容）靠左對齊 */
+    line-height: 1.8; /* 增加行高，提高可讀性 */
 }
 
 /* 服務部分 */
