@@ -226,7 +226,7 @@ nav ul li a:hover {
 .project-card .img-container {
     height: 200px; /* 根據實際圖片調整合適的高度 */
     display: flex;
-    align-items: center; /* 圖片置中 */
+    align-items: stretch; /* 圖片置中 */
 }
 
 .project-card img {
