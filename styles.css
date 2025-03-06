@@ -19,7 +19,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #0066cc;
+    color: #ff6f22;
 }
 
 ul {
@@ -32,7 +32,7 @@ img {
 
 .btn {
     display: inline-block;
-    background-color: #0066cc;
+    background-color: #ff6f22;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -69,7 +69,7 @@ header .container {
 
 .logo h1 {
     font-size: 1.5rem;
-    color: #0066cc;
+    color: #ff6f22;
 }
 
 nav ul {
@@ -87,12 +87,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #0066cc;
+    color: #ff6f22;
 }
 
 /* 首頁橫幅部分 */
 .hero {
-    height: 20vh;
+    height: 40vh;
     background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('/images/bannerpng.png') no-repeat center center/cover;
     display: flex;
     align-items: center;
@@ -148,7 +148,7 @@ nav ul li a:hover {
 
 .service-card h3 {
     padding: 20px 20px 10px;
-    color: #0066cc;
+    color: #ff6f22;
 }
 
 .service-card p {
@@ -187,7 +187,7 @@ nav ul li a:hover {
 
 .project-card h3 {
     padding: 20px 20px 10px;
-    color: #0066cc;
+    color: #ff6f22;
 }
 
 .project-card p {
@@ -230,7 +230,7 @@ nav ul li a:hover {
 
 .feature i {
     font-size: 2.5rem;
-    color: #0066cc;
+    color: #ff6f22;
     margin-bottom: 20px;
 }
 
@@ -258,7 +258,7 @@ nav ul li a:hover {
 
 .contact-item i {
     font-size: 1.5rem;
-    color: #0066cc;
+    color: #ff6f22;
     margin-right: 20px;
     margin-top: 5px;
 }
