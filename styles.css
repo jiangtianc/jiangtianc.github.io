@@ -92,13 +92,13 @@ nav ul li a:hover {
 
 /* 首頁橫幅部分 */
 .hero {
-    height: 50vh;
+    height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/bannerpng.png') no-repeat center center/cover;
     display: flex;
     align-items: center;
     text-align: center;
     color: #fff;
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 .hero-content {
