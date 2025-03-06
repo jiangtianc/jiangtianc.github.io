@@ -224,7 +224,7 @@ nav ul li a:hover {
 
 /* 創建固定高度的圖片容器，確保圖片向上對齊 */
 .project-card .img-container {
-    height: 320px; /* 根據實際圖片調整合適的高度 */
+    height: 220px; /* 根據實際圖片調整合適的高度 */
     overflow: hidden;
     position: relative;
 }
